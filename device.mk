@@ -13,10 +13,6 @@
 # limitations under the License.
 
 # This file includes all definitions that apply only to toroplus device
-#
-# Anything that is generic to all tuna products should go in the tuna directory
-#
-# Everything in this directory will become public
 
 DEVICE_PACKAGE_OVERLAYS += device/samsung/toroplus/overlay
 
