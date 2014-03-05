@@ -5,6 +5,9 @@ PRODUCT_RELEASE_NAME := GN-CDMA
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+# device
+$(call inherit-product-if-exists, device/samsung/toroplus/full_toroplus.mk)
+
 # Inherit some common liquid stuff.
 $(call inherit-product, vendor/liquid/config/common_phone.mk)
 
