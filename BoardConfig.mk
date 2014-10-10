@@ -13,8 +13,6 @@
 # limitations under the License.
 
 # Default values, possibly overridden by BoardConfigVendor.mk
-TARGET_BOARD_INFO_FILE := device/samsung/toroplus/board-info.txt
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/toroplus/bluetooth
 
 # Use the non-open-source part, if present
 -include vendor/samsung/toroplus/BoardConfigVendor.mk
